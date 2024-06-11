@@ -1,0 +1,15 @@
+data_ingestion:
+  movies_dataset_path: data\movies_dataset.csv
+  reviews_dataset_path: data\reviews_dataset.csv
+
+data_preparation:
+  movies_data_path: Artifacts\movies.csv
+  reviews_data_path: Artifacts\reviews.csv
+
+data_transformation:
+  final_data_path: Artifacts\final_dataset.csv
+
+recommendations:
+  top_n: 10
+  similarity_data_path: Artifacts\similarity.pkl
+  movies_content_path: Artifacts\final_data.csv
