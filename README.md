@@ -6,7 +6,7 @@ Content-based filtering is a recommendation approach that suggests items to user
 ## Key Points:
 
 ### Item Attributes:
-Each item is described by a set of features or attributes, such as the genre, director, and cast for movies, or keywords and categories for articles and products.
+Each item is described by a set of features or attributes. For this project, we use TF-IDF (Term Frequency-Inverse Document Frequency) to vectorize textual descriptions such as movie plots. This helps capture the importance of words in the descriptions, providing a numerical representation of item attributes.
 
 ### Similarity Calculation: 
 
